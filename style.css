@@ -1,0 +1,565 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*========================RESEEEEET========*/
+
+
+
+
+/*========================PRINCIPALES========*/
+
+
+
+
+body{   
+    font-family: sans-serif;
+    background-color: #cfe8f0;
+}
+
+header{
+    background-color:  #5454dd;
+    font-family: sans-serif;
+}
+
+main{
+    margin: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+/*========================PRINCIPALES========*/
+
+
+/*=============================== FOOTER ====*/
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #5454dd;
+    margin-top: 5rem;
+
+}
+
+
+.parrafo__footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+.redes__sociales__a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: #000000;
+    width:48px;
+}
+
+.redes__sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.redes__sociales img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*=============================== FOOTER ====*/
+
+
+
+
+/*=========================MENU NAV*/
+
+
+.LOGOpag{
+        width: 80px;
+        margin: 10px;
+        border-radius: 20px;
+}
+
+
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.nav__container-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 3rem;
+
+}
+
+li{ 
+    margin-right: 2.5rem;
+    border-style: solid;
+    color: #487ccf;
+    background-color: #ffffff;
+    border-radius: 30px;
+    list-style-type: none;
+
+}
+
+nav a{
+    color: #4a12e3;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: .3rem 1.5rem;
+}
+
+
+/* Arreglar */
+.nav__link{
+    transition: 0.3s;
+    
+}
+
+
+.nav__submenu{
+    display: none;
+    list-style-type: none;
+
+}
+
+
+
+.trigger:hover > .nav__submenu{
+    display: block;
+    position: absolute;
+    background-color: #b9c8f1;
+    border-radius: 10px;
+    box-shadow: 15px 10px 20px #5b5b5b;
+    padding: 0.5rem;
+}
+
+.nav__submenu li{
+    margin: 0.5rem 1rem;
+
+}
+
+
+
+
+
+/*=========================MENU NAV*/
+
+
+
+
+/*==============================MAIN_INDEX*/
+
+
+
+
+.grid{
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+
+    grid-template-rows:  min-content min-content min-content min-content;
+
+    grid-template-areas:
+    "imagen1         imagen1"
+    "title           title"
+    "description     img"
+    "img2            description2"
+    ;
+}
+
+
+.grid .imagen1{
+    grid-area: imagen1;
+    width: 50%;
+    height: 28rem;
+    margin-left: 405px;
+}
+
+
+
+.grid .grid__title{
+    grid-area: title;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    text-decoration: underline #0c0c8e;
+    color: #0c0c8e;
+}
+
+
+.grid .grid__description{
+    grid-area: description;
+    justify-content: center;
+    margin: 4rem 2rem;
+    font-size: 1.5rem;
+
+}
+
+
+.grid .grid__imagen1{
+    grid-area: img;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    height: 27rem;
+}
+
+
+.grid .grid__imagen2{
+    grid-area: img2;
+    width: 100%;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    height: 30rem;
+}
+
+.grid .grid__description2{
+    grid-area: description2;
+    justify-content: center;
+    margin: 4rem 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/*==============================MAIN_INDEX*/
+
+
+
+/*==========================================HTML SEGUROS*/
+
+
+
+.grid__container{
+    display: grid;
+    
+    grid-template-columns: 50% 50%;
+
+    grid-template-rows: min-content min-content min-content;
+
+    grid-template-areas: 
+    "description1      img1"
+    "img2              description2"
+    "description3      img3"
+    ;
+}
+
+.grid__imagenSeguros{
+    grid-area: img1;
+    width: 40rem;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+}
+
+.grid__descriptionSeguros{
+    grid-area: description1;
+    justify-content: center;
+    margin: 5rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+.gridimagen__dos{
+    grid-area: img2;
+    max-height: 100%;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+}
+
+.griddescription__dos{
+    grid-area: description2;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.grid__imgtres{
+    grid-area: img3;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    
+}
+
+.grid__descriptionTres{
+    grid-area: description3;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+/*==========================================HTML SEGUROS*/
+
+
+/* =======================================HTML CONTACTO */
+
+
+
+.Miformulario{
+    width: 30%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+}
+
+.titulo__formulario{
+    color: #00007b;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px #ab9595
+}
+
+
+
+/* =======================================HTML CONTACTO */
+
+
+
+
+
+
+/* ==========================================
+========================================== MEDIAQUERIS
+========================================== */
+
+
+
+/* ===========================================DESKTOP */
+@media screen and (max-width: 1200px){
+    body{
+        background-color: #c2eeff;
+    }
+}
+
+
+
+
+
+
+/* ==========================================TABLETS */
+@media screen and (max-width: 780px){
+    body{
+        background-color: #56b05a;
+    }
+
+    .grid{
+    
+        grid-template-columns: 50% 50%;
+    
+        grid-template-rows:  min-content min-content min-content;
+    
+        grid-template-areas:
+        "imagen1          imagen1"
+        "title            title"
+        "description2    img"
+        "img2             description2"
+        
+        ;
+    }
+
+
+
+    .grid .grid__imagen1{
+        grid-area: img;
+        width: 100%;
+        margin: 5% auto;
+        border-radius: 50px;
+        border: 5px solid #50a8b6;
+        height: 16rem;
+    }
+
+    .grid .grid__imagen2{
+        grid-area: img2;
+        width: 100%;
+        border-radius: 50px;
+        border: 5px solid #50a8b6;
+        height: 19rem;
+    }
+
+    .grid .grid__description2{
+        grid-area: description2;
+        justify-content: center;
+        margin: 1rem 1rem;
+        font-size: 1rem;
+    }
+    
+
+
+    .grid .grid__description{
+        grid-area: description;
+        justify-content: center;
+        margin: 2rem 0rem;
+        font-size: 1rem;
+    }
+
+nav{
+    background-color: #533db4;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+
+.grid .imagen1{
+    grid-area: imagen1;
+    width: 50%;
+    height: 21rem;
+    margin-left: 170px;
+}
+
+
+
+}
+
+
+
+/*======================================== MOBILE */
+@media screen and (max-width: 480px){
+    body{
+        background-color: #ffb2b2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.imagen2{
+    width: 25rem;
+    padding: 1px;   
+    border-radius: 50px;
+    border: 5px solid blue;
+    display: inline-block;
+}
+
+.card3{
+    margin: 20px;
+}
+
+.card__caja3{
+    padding: 1px;
+    border-radius: 20px;
+    border: 5px solid blue;
+    display: inline-block;
+    height: 20rem;
+}
+
+.imagen3{
+    width: 29rem;
+    border-radius: 15px;
+    display: block;
+}
+
+*/
+
+
+
+
+
+/* .card__imagen, .card2__imagen{
+    width: 40rem;
+    height: 40rrem;
+    position: relative;
+    top: 5px;
+    left: 300px;
+    border-radius: 20px;
+    border: solid 5px  #50a8b6;
+    border-style: groove;
+    display: block;
+}
+
+.card__titulo{
+    text-align: center;
+
+}
+
+.card__parrafo, .card2__parrafo{
+    display: block;
+    top: 200px;
+    text-align: left;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
