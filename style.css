@@ -164,7 +164,15 @@ nav a{
 
 
 
+
+
+
+
+
+
 .grid{
+    margin: 1rem;
+
     display: grid;
 
     grid-template-columns: 50% 50%;
@@ -244,62 +252,87 @@ nav a{
 /*==========================================HTML SEGUROS*/
 
 
-
-.grid__container{
-    display: grid;
-    
-    grid-template-columns: 50% 50%;
-
-    grid-template-rows: min-content min-content min-content;
-
+.grid__container {
+    display: grid; 
+    grid-template-columns: 25% 29% 25% 25fr; 
+    grid-template-rows: min-content min-content min-content; 
+    gap: 0px 0px; 
     grid-template-areas: 
-    "description1      img1"
-    "img2              description2"
-    "description3      img3"
-    ;
+    "description1 description1              img1 img1"
+    "img2 img2                              description2 description2"
+    "description3 description3              img3 img3"; 
 }
 
-.grid__imagenSeguros{
+.segurosimg__1{
     grid-area: img1;
-    width: 40rem;
+    width: 100%;
+    margin: 5% auto;
     border-radius: 50px;
     border: 5px solid #50a8b6;
+
 }
 
-.grid__descriptionSeguros{
+
+.description__1{
     grid-area: description1;
-    justify-content: center;
-    margin: 5rem 0 0 0;
+    /* justify-content: center; */
+    margin: 4rem 2rem;
     font-size: 1.5rem;
 }
 
-.gridimagen__dos{
+.segurosimg__2{
     grid-area: img2;
-    max-height: 100%;
+    width: 95%;
+    margin: 5% auto;
     border-radius: 50px;
     border: 5px solid #50a8b6;
 }
 
-.griddescription__dos{
+.description__2{
     grid-area: description2;
-    padding: 2rem;
+    /* justify-content: center; */
+    margin: 4rem 2rem;
     font-size: 1.5rem;
-}
-
-.grid__imgtres{
-    grid-area: img3;
-    width: 40rem;
-    height: 20rem;
-    border-radius: 50px;
-    border: 5px solid #50a8b6;
     
 }
 
-.grid__descriptionTres{
+.segurosimg__3{
+    grid-area: img3;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+}
+
+.description__3{
     grid-area: description3;
-    padding: 2rem;
+    /* justify-content: center; */
+    margin: 4rem 2rem;
     font-size: 1.5rem;
 }
+
+
+/* ===================== GRILLAS ==============*/
+
+
+.carrousel__seguro{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*==========================================HTML SEGUROS*/
 
@@ -447,90 +480,87 @@ nav ul{
 
 
 
-/*
 
-.imagen2{
-    width: 25rem;
-    padding: 1px;   
-    border-radius: 50px;
-    border: 5px solid blue;
-    display: inline-block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid__container{
+    display: grid;
+    
+    grid-template-columns: 50% 50%;
+
+    grid-template-rows: min-content min-content min-content;
+
+    grid-template-areas: 
+    "description1      img1"
+    "img2              description2"
+    "description3      img3"
+    ;
 }
 
-.card3{
-    margin: 20px;
-}
-
-.card__caja3{
-    padding: 1px;
-    border-radius: 20px;
-    border: 5px solid blue;
-    display: inline-block;
-    height: 20rem;
-}
-
-.imagen3{
-    width: 29rem;
-    border-radius: 15px;
-    display: block;
-}
-
-*/
-
-
-
-
-
-/* .card__imagen, .card2__imagen{
+.grid__imagenSeguros{
+    grid-area: img1;
     width: 40rem;
-    height: 40rrem;
-    position: relative;
-    top: 5px;
-    left: 300px;
-    border-radius: 20px;
-    border: solid 5px  #50a8b6;
-    border-style: groove;
-    display: block;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
 }
 
-.card__titulo{
-    text-align: center;
-
+.grid__descriptionSeguros{
+    grid-area: description1;
+    justify-content: center;
+    margin: 5rem 0 0 0;
+    font-size: 1.5rem;
 }
 
-.card__parrafo, .card2__parrafo{
-    display: block;
-    top: 200px;
-    text-align: left;
+.gridimagen__dos{
+    grid-area: img2;
+    max-height: 100%;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+}
+
+.griddescription__dos{
+    grid-area: description2;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.grid__imgtres{
+    grid-area: img3;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    
+}
+
+.grid__descriptionTres{
+    grid-area: description3;
+    padding: 2rem;
+    font-size: 1.5rem;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
