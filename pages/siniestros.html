@@ -29,31 +29,48 @@
         
         
         
-        <nav class="nav__container">
+      <nav class="navbar navbar-expand-lg">
 
-            <a href="../index.html"><img class="LOGOpag" src="../assets/LOGO 20X20 AZUL.jpg" alt="Logo de mi pagina"></a>
+        <div class="container-fluid">
 
-            <ul class="nav__container-list">
-                <li><a class="nav__link" href="../index.html">Inicio</a></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <li class="trigger">
-                    <a class="nav__link" href="./seguros.html">Seguros</a>
-                    <ul class="nav__submenu">
-                        <li><a class="nav__link" href="">Familiar</a></li>
-                        <li><a class="nav__link" href="">Casa</a></li>
-                        <li><a class="nav__link" href="">Agro</a></li>
-                        <li><a class="nav__link" href="">Auto</a></li>
-                    </ul>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="../index.html"><img class="LOGOpag" src="../assets/LOGO 20X20 AZUL.jpg" alt=""></a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item trigger">
+                <a class="nav-link active" aria-current="page" href="./seguros.html">Seguros</a>
+                <ul class="nav__submenu">
+                  <li><a class="nav__link" href="">Familiar</a></li>
+                  <li><a class="nav__link" href="">Casa</a></li>
+                  <li><a class="nav__link" href="">Agro</a></li>
+                  <li><a class="nav__link" href="">Auto</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./siniestros.html">Siniestros</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./compañias.html">Compañías</a>
                 </li>
-
-                <li><a class="nav__link" href="./siniestros.html">Siniestros</a></li>
-                <li><a class="nav__link" href="./compañias.html">Compañías</a></li>
-                <li><a class="nav__link" href="./contacto.html">Contacto</a></li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                </li>
+              </li>
             </ul>
-            
-            
 
-        </nav>
+          </div>
+
+        </div>
+
+      </nav>
     
     </header>
 

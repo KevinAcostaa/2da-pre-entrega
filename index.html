@@ -22,28 +22,48 @@
     <!-- ==================================== HEADER ====== -->
     <header>
 
-      <nav class="nav__container">
-            <a href="./index.html"><img class="LOGOpag" src="./assets/LOGO 20X20 AZUL.jpg" alt="Logo de mi pagina"></a>
+      <nav class="navbar navbar-expand-lg">
 
-            <ul class="nav__container-list">
+        <div class="container-fluid">
 
-                <li><a class="nav__link" href="./index.html">Inicio</a></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <li class="trigger">
-                    <a class="nav__link" href="./pages/seguros.html">Seguros</a>
-                    <ul class="nav__submenu">
-                        <li><a class="nav__link" href="">Familiar</a></li>
-                        <li><a class="nav__link" href="">Casa</a></li>
-                        <li><a class="nav__link" href="">Agro</a></li>
-                        <li><a class="nav__link" href="">Auto</a></li>
-                    </ul>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="../index.html"><img class="LOGOpag" src="../assets/LOGO 20X20 AZUL.jpg" alt=""></a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item trigger">
+                <a class="nav-link active" aria-current="page" href="./pages/seguros.html">Seguros</a>
+                <ul class="nav__submenu">
+                  <li><a class="nav__link" href="">Familiar</a></li>
+                  <li><a class="nav__link" href="">Casa</a></li>
+                  <li><a class="nav__link" href="">Agro</a></li>
+                  <li><a class="nav__link" href="">Auto</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/siniestros.html">Siniestros</a>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./pages/compañias.html">Compañías</a>
                 </li>
-
-                <li><a class="nav__link" href="./pages/siniestros.html">Siniestros</a></li>
-                <li><a class="nav__link" href="./pages/compañias.html">Compañías</a></li>
-                <li><a class="nav__link" href="./pages/contacto.html">Contacto</a></li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                </li>
+              </li>
             </ul>
-        </nav>
+
+          </div>
+
+        </div>
+
+      </nav>
 
 
 
@@ -135,13 +155,11 @@
         </div>
       </footer>
 
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
       AOS.init();
@@ -170,35 +188,3 @@
 
 
 
-      <!-- <section class="grid">
-        <img
-          class="imagen1"
-          src="./assets/LOGO 20X20 AZUL TRANSPARENTE.png"
-          alt="imagen"
-        />
-
-        <h2 class="grid__title" data-aos="fade-down-right">¡Tu Asesor de Seguro más confiable!</h2>
-        <p class="grid__description">
-          Te brindamos asesoramiento independiente, profesional e imparcial, en
-          busca de una correcta cobertura del riesgo que desees cubrir. <br />
-          Con un Productor Asesor de Seguros no tiene costo adicional, ya que
-          contar con ello no supone ningun gasto extra a pesar de todo el
-          trabajo que conlleva este proceso. <br />
-          Nuestro equipo es sencillo, eficiente y directo.
-        </p>
-        <img class="grid__imagen1" data-aos="fade-down-right" src="./assets/corredordeseguro.jpg" alt="imagen seguro"/>
-
-        <img
-          class="grid__imagen2"
-          data-aos="fade-down-right"
-          src="./assets/Insurance.webp"
-          alt="imagen seguro 2"
-        />
-        <p class="grid__description2">
-          Buscamos ofrecerte la mejor combinacón de servicios para personas y
-          coches de forma independiente, al mejor precio. <br />
-          Seguros para vehículos, seguros de vida y ahorro, seguros
-          agropecuarios, seguros de empresa, seguros de viaje, garantías de
-          alquiler y más.
-        </p>
-      </section> -->
