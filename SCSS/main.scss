@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*========================RESEEEEET========*/
+
+@import "_inicio.scss";
+@import "_header.scss";
+@import "_contacto.scss";
+@import "_seguros.scss";
+@import "_footer.scss";
+
+
+
+
+/* =============================RESPONSIVE============================== */
+@import "_responsive.scss";
+
+
+
+
+
+/*========================PRINCIPALES========*/
+
+
+
+
+body{   
+    font-family: sans-serif;
+    background-color: #cfe8f0;
+}
+
+main{
+    margin: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+/*========================PRINCIPALES========*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,333 @@
+
+
+
+
+
+
+/* ===========================================DESKTOP */
+/* ==================================RESPONSIVE INICIO */
+@media screen and (max-width: 1200px){
+    /* body{
+        background-color: #ba97e9;
+    } */
+
+    .grid{
+    
+        grid-template-areas:
+        "imagen1         imagen1"
+        "title           title"
+        "img2            img"
+        "description2    description";
+
+
+
+    }
+
+.grid .imagen1{
+    margin: auto;
+}
+
+.grid .grid__imagen1{
+    margin-left: 1rem;
+}
+
+.grid .grid__imagen2{
+    margin-right: 1rem;
+}
+
+.grid .grid__description{
+    font-size: 1.3rem;
+}
+
+.grid .grid__description2{
+    font-size: 1.3rem;
+}
+
+.card__copyright{
+    font-size: 12px;
+}
+
+}
+
+
+
+
+
+
+/* ==========================================TABLETS */
+/* ===================================RESPONSIVE INICIO */
+@media screen and (max-width: 780px){
+    /* body{
+        background-color: #56b05a;
+    } */
+
+    .grid{
+    
+        grid-template-columns: 50% 50%;
+    
+        grid-template-rows:  min-content min-content min-content;
+    
+        grid-template-areas:
+        "imagen1          imagen1"
+        "title            title"
+        "description2    img"
+        "img2             description2"
+        ;
+
+    }
+
+
+
+    .grid .grid__imagen1{
+        grid-area: img;
+        width: 100%;
+        margin: 5% auto;
+        border-radius: 50px;
+        border: 5px solid #50a8b6;
+        height: 16rem;
+    }
+
+    .grid .grid__imagen2{
+        grid-area: img2;
+        width: 100%;
+        border-radius: 50px;
+        border: 5px solid #50a8b6;
+        height: 19rem;
+    }
+
+    .grid .grid__description2{
+        grid-area: description2;
+        justify-content: center;
+        margin: 1rem 1rem;
+        font-size: 1rem;
+    }
+    
+
+
+    .grid .grid__description{
+        grid-area: description;
+        justify-content: center;
+        margin: 2rem 0rem;
+        font-size: 1rem;
+    }
+
+nav{
+    background-color: #533db4;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+
+.grid .imagen1{
+    grid-area: imagen1;
+    width: 50%;
+    height: 21rem;
+    margin-left: 170px;
+}
+
+.carousel__seguro img{
+    object-fit: fill;
+    height: 35vh;
+    width: 100%;
+    background-color: #c7c9ff;
+}
+
+.grid{
+    width: 100%;
+}
+
+.card__copyright{
+    font-size: 12px;
+}
+
+
+}
+
+
+
+/*======================================== MOBILE */
+/* =================================RESPONSIVE INICIO */
+@media screen and (max-width: 480px){
+    /* body{
+        background-color: #ffb2b2;
+    } */
+
+
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+p{
+    display: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .parrafo__footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    width: 100%;
+}
+
+.grid .imagen1{
+    margin-left: 86px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================DESKTOP */
+/* =====================RESPONSIVE SEGUROS */
+
+@media screen and (max-width: 1200px){
+
+
+    .grid__container p{
+        font-size: 18px;
+    }
+
+    footer h4{
+        font-size: 18px;
+
+    }
+
+    .parrafo__footer{
+        font-size: 18px;
+    }
+
+
+
+
+
+}
+
+
+
+/* ==========================TABLETS */
+/* ========================RESPONSIVE SEGUROS */
+
+@media screen and (max-width: 780px){
+
+    .grid__container {
+        grid-template-areas: 
+        "img1 img1                  img2 img2"
+        "description1 description1   description2 description2"
+        "img3  img3 description3 description3";
+    }
+
+
+    .grid__container .segurosimg__1{
+        height: 9.2rem;
+    }
+
+
+    .grid__container .segurosimg__2{
+        height: 9.2rem;
+
+    }
+
+
+    .grid__container .segurosimg__3{
+        height: 9.5rem;
+
+    }
+
+    .grid__container .description__1{
+        font-size: 14px;
+        margin: 1rem 2rem;
+    }
+
+    .grid__container .description__2{
+        font-size: 14px;
+        margin: 1rem 2rem;
+    }
+
+    .grid__container .description__3{
+        font-size: 14px;
+        margin: 2rem 2rem;
+    }
+
+
+
+}
+
+
+
+/* ============================MOBILE */
+/* ========================RESPONSIVE SEGUROS */
+
+@media screen and (max-width: 480px){
+
+    .grid__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .segurosimg__1{
+        margin: 5% 0;
+    }
+
+
+    .segurosimg__2{
+        height: 10rem;
+        margin: 5% 0;
+    }
+
+    
+    .segurosimg__3{
+
+        height: 10rem; 
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+
+
+    .card__footer{
+        
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .card__copyright{
+        font-size: 10px;
+    }
+
+    .parrafo__footer{
+        font-size: 18px;
+    }
+
+}

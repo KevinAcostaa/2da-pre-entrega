@@ -1,0 +1,79 @@
+
+header{
+    background-color:  #5454dd;
+    font-family: sans-serif;
+    
+    .LOGOpag{
+        width: 80px;
+        margin: 10px;
+        border-radius: 20px;
+
+}
+
+
+    nav a{
+        color: #4a12e3;
+        font-size: 1.3rem;
+        text-decoration: none;
+        padding: .3rem 1.5rem;
+
+}
+
+li{ 
+    margin-right: 2rem;
+    border-style: solid;
+    color: #487ccf;
+    background-color: #ffffff;
+    border-radius: 25px;
+    list-style-type: none;
+    padding: 1px;
+
+}
+
+
+.nav-item{
+    transition: 1s;
+    &:hover{
+            transform: scale(1.1);
+            background-color: #9a9a9c;
+    }
+}
+
+.nav__item-submenu{
+    transition: 1s;
+    &:hover{
+            transform: scale(1.1);
+            background-color: #9c9a9a;
+    }
+}
+
+/* .nav-item:hover{
+    transform: scale(1.1);
+} */
+
+
+.trigger:hover > .nav__submenu{
+    display: block;
+    position: absolute;
+    background-color: #b9c8f1;
+    border-radius: 10px;
+    box-shadow: 15px 10px 20px #5b5b5b;
+    padding: 5px;
+}
+.nav__submenu{
+    display: none;
+    list-style-type: none;
+    z-index: 1;
+}
+.nav-item{
+    z-index: 1;
+}
+.nav__submenu li{
+    margin: 0.5rem 1rem;
+}
+.nav__submenu a{
+    font-size: 1rem;
+}
+
+}
+

@@ -1,0 +1,60 @@
+
+
+.grid{
+    margin: 1rem;
+
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+
+    grid-template-rows:  min-content min-content min-content min-content;
+
+    grid-template-areas:
+    "imagen1         imagen1"
+    "title           title"
+    "description     img"
+    "img2            description2"
+    ;
+}
+.grid .imagen1{
+    grid-area: imagen1;
+    width: 50%;
+    height: 28rem;
+    margin-left: 400px;
+}
+.grid .grid__title{
+    grid-area: title;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    text-decoration: underline #0c0c8e;
+    color: #0c0c8e;
+}
+.grid .grid__description{
+    grid-area: description;
+    justify-content: center;
+    margin: 4rem 2rem;
+    font-size: 1.5rem;
+
+}
+.grid .grid__imagen1{
+    grid-area: img;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    height: 27rem;
+}
+.grid .grid__imagen2{
+    grid-area: img2;
+    width: 100%;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    height: 30rem;
+}
+.grid .grid__description2{
+    grid-area: description2;
+    justify-content: center;
+    margin: 4rem 2rem;
+    font-size: 1.5rem;
+}

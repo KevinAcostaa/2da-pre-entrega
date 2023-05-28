@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*========================RESEEEEET========*/
+.grid {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content min-content;
+  grid-template-areas: "imagen1         imagen1" "title           title" "description     img" "img2            description2";
+}
+
+.grid .imagen1 {
+  grid-area: imagen1;
+  width: 50%;
+  height: 28rem;
+  margin-left: 400px;
+}
+
+.grid .grid__title {
+  grid-area: title;
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem;
+  -webkit-text-decoration: underline #0c0c8e;
+          text-decoration: underline #0c0c8e;
+  color: #0c0c8e;
+}
+
+.grid .grid__description {
+  grid-area: description;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 4rem 2rem;
+  font-size: 1.5rem;
+}
+
+.grid .grid__imagen1 {
+  grid-area: img;
+  width: 100%;
+  margin: 5% auto;
+  border-radius: 50px;
+  border: 5px solid #50a8b6;
+  height: 27rem;
+}
+
+.grid .grid__imagen2 {
+  grid-area: img2;
+  width: 100%;
+  border-radius: 50px;
+  border: 5px solid #50a8b6;
+  height: 30rem;
+}
+
+.grid .grid__description2 {
+  grid-area: description2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 4rem 2rem;
+  font-size: 1.5rem;
+}
+
+header {
+  background-color: #5454dd;
+  font-family: sans-serif;
+  /* .nav-item:hover{
+      transform: scale(1.1);
+  } */
+}
+header .LOGOpag {
+  width: 80px;
+  margin: 10px;
+  border-radius: 20px;
+}
+header nav a {
+  color: #4a12e3;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 0.3rem 1.5rem;
+}
+header li {
+  margin-right: 2rem;
+  border-style: solid;
+  color: #487ccf;
+  background-color: #ffffff;
+  border-radius: 25px;
+  list-style-type: none;
+  padding: 1px;
+}
+header .nav-item {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+header .nav-item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #9a9a9c;
+}
+header .nav__item-submenu {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+header .nav__item-submenu:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #9c9a9a;
+}
+header .trigger:hover > .nav__submenu {
+  display: block;
+  position: absolute;
+  background-color: #b9c8f1;
+  border-radius: 10px;
+  -webkit-box-shadow: 15px 10px 20px #5b5b5b;
+          box-shadow: 15px 10px 20px #5b5b5b;
+  padding: 5px;
+}
+header .nav__submenu {
+  display: none;
+  list-style-type: none;
+  z-index: 1;
+}
+header .nav-item {
+  z-index: 1;
+}
+header .nav__submenu li {
+  margin: 0.5rem 1rem;
+}
+header .nav__submenu a {
+  font-size: 1rem;
+}
+
+.Miformulario {
+  width: 30%;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+}
+
+.titulo__formulario {
+  color: #00007b;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #ab9595;
+}
+
+.emailcontacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 10rem;
+  font-size: 15px;
+}
+
+.card__footer .card__copyright {
+  font-size: 15px;
+}
+
+.carousel__seguro img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 70vh;
+  width: 100%;
+  background-color: #c7c9ff;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+  grid-template-rows: min-content min-content min-content;
+  gap: 0px 0px;
+  grid-template-areas: "description1 description1              img1 img1" "img2 img2                              description2 description2" "description3 description3              img3 img3";
+}
+
+.segurosimg__1 {
+  grid-area: img1;
+  width: 100%;
+  height: 18rem;
+  margin: 5% auto;
+  border-radius: 50px;
+  border: 5px solid #50a8b6;
+}
+
+.description__1 {
+  grid-area: description1;
+  /* justify-content: center; */
+  margin: 4rem 2rem;
+  font-size: 1.5rem;
+}
+
+.segurosimg__2 {
+  grid-area: img2;
+  width: 95%;
+  height: 19rem;
+  margin: 5% auto;
+  border-radius: 50px;
+  border: 5px solid #50a8b6;
+}
+
+.description__2 {
+  grid-area: description2;
+  /* justify-content: center; */
+  margin: 4rem 2rem;
+  font-size: 1.5rem;
+}
+
+.segurosimg__3 {
+  grid-area: img3;
+  width: 100%;
+  height: 20rem;
+  margin: 5% auto;
+  border-radius: 50px;
+  border: 5px solid #50a8b6;
+}
+
+.description__3 {
+  grid-area: description3;
+  /* justify-content: center; */
+  margin: 4rem 2rem;
+  font-size: 1.5rem;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #5454dd;
+  margin-top: 5rem;
+}
+footer .parrafo__footer {
+  text-align: center;
+  font-size: 20px;
+}
+footer .redes__sociales__a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 1rem;
+  color: #000000;
+  width: 48px;
+}
+footer .redes__sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .redes__sociales img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* =============================RESPONSIVE============================== */
+/* ===========================================DESKTOP */
+/* ==================================RESPONSIVE INICIO */
+@media screen and (max-width: 1200px) {
+  /* body{
+      background-color: #ba97e9;
+  } */
+  .grid {
+    grid-template-areas: "imagen1         imagen1" "title           title" "img2            img" "description2    description";
+  }
+  .grid .imagen1 {
+    margin: auto;
+  }
+  .grid .grid__imagen1 {
+    margin-left: 1rem;
+  }
+  .grid .grid__imagen2 {
+    margin-right: 1rem;
+  }
+  .grid .grid__description {
+    font-size: 1.3rem;
+  }
+  .grid .grid__description2 {
+    font-size: 1.3rem;
+  }
+  .card__copyright {
+    font-size: 12px;
+  }
+}
+/* ==========================================TABLETS */
+/* ===================================RESPONSIVE INICIO */
+@media screen and (max-width: 780px) {
+  /* body{
+      background-color: #56b05a;
+  } */
+  .grid {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content;
+    grid-template-rows: min-content min-content min-content;
+    grid-template-areas: "imagen1          imagen1" "title            title" "description2    img" "img2             description2";
+  }
+  .grid .grid__imagen1 {
+    grid-area: img;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    height: 16rem;
+  }
+  .grid .grid__imagen2 {
+    grid-area: img2;
+    width: 100%;
+    border-radius: 50px;
+    border: 5px solid #50a8b6;
+    height: 19rem;
+  }
+  .grid .grid__description2 {
+    grid-area: description2;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+  }
+  .grid .grid__description {
+    grid-area: description;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem 0rem;
+    font-size: 1rem;
+  }
+  nav {
+    background-color: #533db4;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .grid .imagen1 {
+    grid-area: imagen1;
+    width: 50%;
+    height: 21rem;
+    margin-left: 170px;
+  }
+  .carousel__seguro img {
+    -o-object-fit: fill;
+       object-fit: fill;
+    height: 35vh;
+    width: 100%;
+    background-color: #c7c9ff;
+  }
+  .grid {
+    width: 100%;
+  }
+  .card__copyright {
+    font-size: 12px;
+  }
+}
+/*======================================== MOBILE */
+/* =================================RESPONSIVE INICIO */
+@media screen and (max-width: 480px) {
+  /* body{
+      background-color: #ffb2b2;
+  } */
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  p {
+    display: none;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .parrafo__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .grid {
+    width: 100%;
+  }
+  .grid .imagen1 {
+    margin-left: 86px;
+  }
+}
+/* =======================DESKTOP */
+/* =====================RESPONSIVE SEGUROS */
+@media screen and (max-width: 1200px) {
+  .grid__container p {
+    font-size: 18px;
+  }
+  footer h4 {
+    font-size: 18px;
+  }
+  .parrafo__footer {
+    font-size: 18px;
+  }
+}
+/* ==========================TABLETS */
+/* ========================RESPONSIVE SEGUROS */
+@media screen and (max-width: 780px) {
+  .grid__container {
+    grid-template-areas: "img1 img1                  img2 img2" "description1 description1   description2 description2" "img3  img3 description3 description3";
+  }
+  .grid__container .segurosimg__1 {
+    height: 9.2rem;
+  }
+  .grid__container .segurosimg__2 {
+    height: 9.2rem;
+  }
+  .grid__container .segurosimg__3 {
+    height: 9.5rem;
+  }
+  .grid__container .description__1 {
+    font-size: 14px;
+    margin: 1rem 2rem;
+  }
+  .grid__container .description__2 {
+    font-size: 14px;
+    margin: 1rem 2rem;
+  }
+  .grid__container .description__3 {
+    font-size: 14px;
+    margin: 2rem 2rem;
+  }
+}
+/* ============================MOBILE */
+/* ========================RESPONSIVE SEGUROS */
+@media screen and (max-width: 480px) {
+  .grid__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .segurosimg__1 {
+    margin: 5% 0;
+  }
+  .segurosimg__2 {
+    height: 10rem;
+    margin: 5% 0;
+  }
+  .segurosimg__3 {
+    height: 10rem;
+    margin-bottom: 5%;
+    margin-top: 0;
+  }
+  .card__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card__copyright {
+    font-size: 10px;
+  }
+  .parrafo__footer {
+    font-size: 18px;
+  }
+}
+/*========================PRINCIPALES========*/
+body {
+  font-family: sans-serif;
+  background-color: #cfe8f0;
+}
+
+main {
+  margin: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+/*========================PRINCIPALES========*/
