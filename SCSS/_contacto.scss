@@ -20,5 +20,20 @@
 
 }
 .card__footer .card__copyright{
-    font-size: 15px;
+    font-size: 14px;
+}
+
+.container__contacto{
+
+    .div__contacto{
+        display: flex;
+        flex-direction: column;
+        .title__contacto{
+            text-align: center;
+        }
+        .parrafo__contacto{
+            font-size: 20px;
+            
+        }
+    }
 }

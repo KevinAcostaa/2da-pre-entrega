@@ -1,6 +1,6 @@
 
 header{
-    background-color:  #5454dd;
+    background-color: $color-azul;
     font-family: sans-serif;
     
     .LOGOpag{
@@ -12,7 +12,7 @@ header{
 
 
     nav a{
-        color: #4a12e3;
+        color: $color-azul;
         font-size: 1.3rem;
         text-decoration: none;
         padding: .3rem 1.5rem;
@@ -22,7 +22,7 @@ header{
 li{ 
     margin-right: 2rem;
     border-style: solid;
-    color: #487ccf;
+    color: $color-azul;
     background-color: #ffffff;
     border-radius: 25px;
     list-style-type: none;
@@ -46,6 +46,21 @@ li{
             background-color: #9c9a9a;
     }
 }
+.nav-item:active{
+    color: #a0a3ff;
+    background-color: #5c64fa;
+}
+
+.nav__item-submenu:active{
+    color: #a0a3ff;
+    background-color: #5c64fa;
+}
+
+
+.nav__link{
+    color: #000000;
+}
+
 
 /* .nav-item:hover{
     transform: scale(1.1);

@@ -331,3 +331,321 @@ footer .parrafo__footer{
     }
 
 }
+
+
+
+
+// ===========================RESPONSIVE SINIESTRO=====
+
+
+// ==============DESKTOP SINIESTRO=============
+
+@media screen and (max-width: 1200px){
+    main{
+        .container__siniestros{
+            display: flex;
+            flex-direction: column;
+
+            .intro__siniestros{
+                display: block;
+            }
+            .title__siniestros{
+                text-align: center;
+            }
+
+        }
+
+        .container__siniestros2{
+            display: flex;
+            flex-direction: column;
+            .title2__siniestros{
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+// ==============TABLETS SINIESTRO=============
+@media screen and (max-width: 780px){
+    
+
+    main{
+        .container__siniestros{
+            display: flex;
+            flex-direction: column;
+
+            .intro__siniestros{
+                display: block;
+            }
+            .title__siniestros{
+                text-align: center;
+            }
+
+        }
+
+        .container__siniestros2{
+            display: flex;
+            flex-direction: column;
+            .title2__siniestros{
+                text-align: center;
+            }
+        }
+    }
+    p{
+        font-size: 17px;
+    }
+
+    ol{
+        font-size: 14px;
+    }
+}
+
+// ==============MOBILE SINIESTRO=============
+@media screen and (max-width: 480px){
+    
+    main{
+        .container__siniestros{
+            display: flex;
+            flex-direction: column;
+
+            .intro__siniestros{
+                display: block;
+            }
+            .title__siniestros{
+                text-align: center;
+            }
+
+        }
+
+        .container__siniestros2{
+            display: flex;
+            flex-direction: column;
+            .title2__siniestros{
+                text-align: center;
+            }
+        }
+
+        p{
+            display: block;
+            font-size: 12px;
+        }
+        ol{
+            font-size: 10px;
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+// ================RESPONSIVE COMPAÑIAS=====
+// ==============DESKTOP COMPAÑÍAS=============
+@media screen and (max-width: 1200px){
+    main{
+
+        .container__compa{
+            display: flex;
+            flex-direction: column;
+        }
+        .div__compa1{
+            display: flex;
+            flex-direction: column;
+            .title__compa1{
+                text-align: center;
+            }
+        }
+
+        .div__compa2{
+            display: flex;
+            flex-direction: column;
+            .title__compa2{
+                text-align: center;
+            }
+        }
+
+        .div__compa3{
+            display: flex;
+            flex-direction: column;
+            .title__compa3{
+                text-align: center;
+            }
+        }
+    }
+
+
+}
+
+// ==============TABLETS COMPAÑÍAS=============
+@media screen and (max-width: 780px){
+    main{
+
+        .container__compa{
+            display: flex;
+            flex-direction: column;
+            p{
+                font-size: 13px;
+            }
+        }
+        .div__compa1{
+            display: flex;
+            flex-direction: column;
+            .title__compa1{
+                text-align: center;
+            }
+        }
+
+        .div__compa2{
+            display: flex;
+            flex-direction: column;
+            .title__compa2{
+                text-align: center;
+            }
+        }
+
+        .div__compa3{
+            display: flex;
+            flex-direction: column;
+            .title__compa3{
+                text-align: center;
+            }
+        }
+
+
+}
+
+}
+
+// ==============MOBILE COMPAÑÍAS=============
+@media screen and (max-width: 480px){
+    main{
+
+        h3{
+            font-size: 15px;
+        }
+        li{
+            font-size: 12px;
+        }
+
+        .footer__compa{
+            display: flex;
+            flex-direction: column;
+        }
+        .container__compa{
+            display: flex;
+            flex-direction: column;
+            p{
+                font-size: 12px;
+            }
+        }
+        .div__compa1{
+            display: flex;
+            flex-direction: column;
+            .title__compa1{
+                text-align: center;
+            }
+        }
+
+        .div__compa2{
+            display: flex;
+            flex-direction: column;
+            .title__compa2{
+                text-align: center;
+            }
+        }
+
+        .div__compa3{
+            display: flex;
+            flex-direction: column;
+            .title__compa3{
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+// ================RESPONSIVE CONTACTO=====
+// ==============DESKTOP CONTACTO=============
+@media screen and (max-width: 1200px){
+
+    .container__contacto{
+
+        .div__contacto{
+            display: flex;
+            flex-direction: column;
+            .title__contacto{
+                text-align: center;
+            }
+            .parrafo__contacto{
+                font-size: 16px;
+                
+            }
+        }
+    }
+
+}
+
+
+// ================RESPONSIVE CONTACTO=====
+// ==============TABLETS CONTACTO=============
+@media screen and (max-width: 780px){
+
+    .container__contacto{
+
+        .div__contacto{
+            display: flex;
+            flex-direction: column;
+            .title__contacto{
+                text-align: center;
+            }
+            .parrafo__contacto{
+                font-size: 14px;
+                
+            }
+        }
+    }
+
+}
+
+
+// ================RESPONSIVE CONTACTO=====
+// ==============MOBILE CONTACTO=============
+@media screen and (max-width: 480px){
+
+    .container__contacto{
+
+        .div__contacto{
+            display: flex;
+            flex-direction: column;
+            .title__contacto{
+                text-align: center;
+            }
+            .parrafo__contacto{
+                font-size: 14px;
+                
+            }
+        }
+    }
+
+    .card__footer{
+        .card__copyright{
+            font-size: 12px;
+        }
+    }
+}

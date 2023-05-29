@@ -5,8 +5,10 @@
 }
 
 /*========================RESEEEEET========*/
-
-@import "_inicio.scss";
+@import "404.scss";
+@import "_global.scss";
+@import "_variables.scss";
+@import "_index.scss";
 @import "_header.scss";
 @import "_contacto.scss";
 @import "_seguros.scss";
@@ -19,28 +21,6 @@
 @import "_responsive.scss";
 
 
-
-
-
-/*========================PRINCIPALES========*/
-
-
-
-
-body{   
-    font-family: sans-serif;
-    background-color: #cfe8f0;
-}
-
-main{
-    margin: 30px;
-}
-
-img{
-    width: 100%;
-}
-
-/*========================PRINCIPALES========*/
 
 
 
