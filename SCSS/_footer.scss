@@ -36,4 +36,40 @@ footer{
         
     }
 
+    .mini__nav{
+        display: flex;
+        flex-direction: row;
+        background-color: #5454dd;
+        justify-content: center;
+        
+        
+
+        & a{
+            text-decoration: none;
+            color: #000000;
+            margin: 0.2rem;
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 4px;
+        }
+        & h3{
+            color: #ffffff;
+
+        }
+
+        .links__mininav{
+            margin: 2rem;
+        }
+
+    }
+
+    h3{
+        text-align: center;
+        background-color: #5454dd;
+        margin-top: 0.5rem;
+
+    }
+
+
+
 }

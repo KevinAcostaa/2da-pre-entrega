@@ -13,6 +13,7 @@
 
 .title__404 {
   font-size: 10rem;
+  color: black;
 }
 
 /*========================PRINCIPALES========*/
@@ -101,6 +102,52 @@ section {
           justify-content: center;
   margin: 4rem 2rem;
   font-size: 1.5rem;
+}
+
+.card__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.border {
+  border-radius: 30px;
+}
+
+.card__cont {
+  background-color: #b8d2f0;
+}
+
+.card__global {
+  margin: 8rem 1rem;
+  border: 5px solid #50a8b6;
+  border-radius: 15px;
+}
+
+.personal__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.personal__container h2 {
+  font-size: 3rem;
+}
+
+.card__image {
+  width: 100%;
+  height: 300px;
+}
+
+.cursive {
+  font-family: "Pacifico", cursive;
 }
 
 header {
@@ -336,6 +383,38 @@ footer .redes__sociales img {
 footer .card__copyrightt {
   font-size: 14px;
 }
+footer .mini__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #5454dd;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .mini__nav a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0.2rem;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 4px;
+}
+footer .mini__nav h3 {
+  color: #ffffff;
+}
+footer .mini__nav .links__mininav {
+  margin: 2rem;
+}
+footer h3 {
+  text-align: center;
+  background-color: #5454dd;
+  margin-top: 0.5rem;
+}
 
 /* =============================RESPONSIVE============================== */
 /* ===========================================DESKTOP */
@@ -466,6 +545,12 @@ footer .card__copyrightt {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  footer .mini__nav {
+    display: none;
+  }
+  footer h3 {
+    display: none;
   }
   footer .parrafo__footer {
     display: -webkit-box;

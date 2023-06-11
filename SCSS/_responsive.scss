@@ -173,6 +173,15 @@ p{
 footer{
     display: flex;
     flex-direction: column;
+    
+    .mini__nav{
+        display: none;
+
+    }
+    
+    h3{
+        display: none;
+    }
 }
 
 footer .parrafo__footer{
@@ -598,6 +607,7 @@ footer .parrafo__footer{
             }
         }
     }
+
 
 }
 
